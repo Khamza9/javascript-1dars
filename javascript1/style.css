@@ -1,3 +1,15 @@
 h1{
-    color: rgb(20, 18, 19); text-align: center;
+    color: rgb(21, 11, 111); text-align: center;
+}
+.h3{
+    color: rgb(14, 15, 112); text-align: center;
+}
+.ul{
+    color: blue ; text-align: center;
+}
+.ul1{
+    color: rgb(46, 25, 169); text-align: center;
+}
+body{
+    background-color: rgb(233, 226, 215);
 }
