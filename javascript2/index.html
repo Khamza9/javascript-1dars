@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Conversions | Operators </title>
+</head>
+<body>
+    <h1 style="text-align: center;">
+        2-Dars <br>
+        Mavzu : Type conversions | Operators .
+    </h1>
+    <p>
+        Type conversion bu turlarni shunchaki almashinib kitishiga aytiladi . <br>
+        Numberni stringga almashishiga yoki boshqalari .
+
+    </p>
+    <p>Original  Value  || Converted  to Number	 || Converted    to String	|| Converted    to Boolean <br>
+        false |	0  |	"false"  |	false	<br>
+        true  | 	1  |	"true" |	true	<br>
+        0  |	0  |	"0"  |	false	<br>
+        1  |	1   |	"1"  |	true	<br>
+       "0"	0	"0"	true	<br>
+       "1"	1	"1"	true	<br>
+       NaN	NaN	"NaN"	false	<br>
+        Infinity	Infinity	"Infinity"	true <br>	
+       -Infinity	-Infinity	"-Infinity"	true	<br>
+        ""	0	""	false	<br>
+       "20"	20	"20"	true	<br>
+       "twenty"	NaN	"twenty"	true	<br>
+       [ ]	0	""	true	<br>
+       [20]	20	"20"	true	<br>
+       [10,20]	NaN	"10,20"	true	<br>
+       ["twenty"]	NaN	"twenty"	true	<br>
+       ["ten","twenty"]	NaN	"ten,twenty"	true	<br>
+       function(){}	NaN	"function(){}"	true	<br>
+       { }	NaN	"[object Object]"	true	<br>
+       null	0	"null"	false	<br>
+       undefined	NaN	"undefined"	false  .
+    </p>
+    <hr>
+    <p> 
+        Operators : Arithmetic Operators <br>
+        <ul>
+            <li>
+                +	Addition	x = y + 2	y=5, x=7
+            </li>
+            <li>
+                -	Subtraction	x=y-2	y=5, x=3
+            </li>
+            <li>
+                *	Multiplication	x=y*2	y=5, x=10
+            </li>
+            <li>
+                /	Division	x = y / 2	y=5, x=2.5
+            </li>
+            <li>
+                **	Exponentiation = Darajaga oshirish	x=y**2	y=5, x=25
+            </li>
+            <li>
+                %	Remainder = qoldiqni hisoblash	x = y % 2	y=5, x=1
+            </li>
+            <li>
+                ++	Pre increment 	x = ++y	y=6, x=6
+            </li>
+            <li>
+                ++	Post increment	x = y++	y=6, x=5
+            </li>
+            <li>
+                --	Pre decrement	x = --y	y=4, x=4
+            </li>
+            <li>
+                --	Post decrement	x = y--	y=4, x=5
+            </li>
+
+        </ul>
+    </p>
+    
+</body>
+</html>

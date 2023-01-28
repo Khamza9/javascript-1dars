@@ -25,9 +25,20 @@ console.log(undef , un )
 
 //                    Object Refernce type
 // bu uzida har xil malumotlarni saqlaydi.
-const person = {
-  firstName: "khamza",
-  lastName: "rizaev",
-  age: 27,
-}
-console.log(person)
+// const person = {
+//   firstName: "khamza",
+//   lastName: "rizaev",
+//   age: 27,
+// }
+// console.log(person)
+// let x = 123;
+// console.log(x)
+// let text = "xush kilibsiz"
+// console.log(`Bizning uyimizga ${text} kilganingizdan mamnunmiz.`)
+
+
+// let  s = `uy vazifasi`;
+// let yoshi = 18 ;
+// console.log (s , yoshi )
+let test = Symbol(1223)
+console.log( test)
